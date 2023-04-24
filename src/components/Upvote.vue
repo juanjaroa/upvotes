@@ -1,5 +1,5 @@
 <template>
-  <article class="flex gap-3 border p-5 justify-between">
+  <article class="flex gap-3 border p-5 justify-between" :class="{ 'border-blue-500': votes >= 20 }">
     <figure>
       <img class="w-[64px]" :src="submissionImage" />
     </figure>
